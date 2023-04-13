@@ -21,5 +21,6 @@ window.addEventListener('click', (e) => {
 	if (e.target.classList.contains('nav__shadow')) {
 		mobileNav.classList.remove('active-nav');
 		navShadow.classList.remove('active-shadow');
+		document.body.style.overflowY = 'visible';
 	}
 });

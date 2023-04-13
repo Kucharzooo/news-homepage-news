@@ -56,6 +56,7 @@ html {
 		width: 60vw;
 		background-color: var(--off-white);
 		z-index: 1000;
+		overflow-y: scroll;
 		transition: right 0.3s;
 	}
 	.active-nav {
@@ -244,7 +245,7 @@ html {
 		&__nav-item {
 			padding: 1rem 2rem;
 			color: var(--dark-grayish-blue);
-			font-size: 1.6rem;
+			font-size: 1.8rem;
 			text-decoration: none;
 			transition: color 0.3s;
 			&:hover,
